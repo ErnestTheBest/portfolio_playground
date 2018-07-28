@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_playground",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio Playground",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Ernests Pakers",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  }
+}
