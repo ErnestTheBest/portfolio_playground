@@ -1,5 +1,8 @@
+* {
+  box-sizing: border-box; }
+
 body {
-  background: #25274d;
+  background: #eb844a;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -9,14 +12,14 @@ body {
     background: url(../img/background.jpg);
     background-attachment: fixed;
     background-size: cover; }
-    body#bg-img::after {
+    body#bg-img:after {
       content: '';
       position: absolute;
       top: 0;
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(37, 39, 77, 0.5);
+      background: rgba(75, 116, 71, 0.6);
       z-index: -1; }
 
 h1,
@@ -33,13 +36,13 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(40, 42, 84, 0.5); }
+    background: rgba(79, 122, 75, 0.5); }
 
 a {
   color: white;
   text-decoration: none; }
   a :hover {
-    color: #116466;
+    color: #f9dc24;
     transition: all 0.5s ease-out; }
 
 header {
@@ -48,7 +51,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #116466; }
+  color: #f9dc24; }
 
 main {
   padding: 1rem;
