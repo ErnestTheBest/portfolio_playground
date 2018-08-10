@@ -1,6 +1,8 @@
-// Menu button
-$portraitLocation: url(../img/portrait_250.jpg);
+// Portrait locations
+$large-portrait: url(../img/portrait_250.jpg);
+$small-portrait: url(../img/portrait_150.jpg);
 
+// Menu button
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -86,7 +88,7 @@ $portraitLocation: url(../img/portrait_250.jpg);
     .portrait {
       width: 250px;
       height: 250px;
-      background: $portraitLocation;
+      background: $large-portrait;
       border-radius: 50%;
       border: solid 3px $secondary-color;
     }
