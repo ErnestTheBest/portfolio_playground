@@ -140,14 +140,14 @@ main {
     div {
       font-size: 2rem;
       border: 3px setTextColor($primary-color) solid;
-      padding: 1.5rem 2rem;
+      padding: 2.5rem 3em;
       margin-bottom: 2rem;
       @include easeOut;
 
       &:hover {
         background: $secondary-color;
         color: setTextColor($secondary-color);
-        padding: 1rem 1rem;
+        padding: 2rem 2rem;
         span {
           color: setTextColor($secondary-color);
         }
