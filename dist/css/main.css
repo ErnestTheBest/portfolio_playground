@@ -233,6 +233,28 @@ main {
       border-color: #fabb93;
       transform: scale(1.01, 1.01); }
 
+#contact .contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  #contact .contacts div {
+    font-size: 2rem;
+    border: 3px #fff solid;
+    padding: 1.5rem 2rem;
+    margin-bottom: 2rem;
+    transition: all 0.5s ease-out; }
+    #contact .contacts div:hover {
+      background: #fabb93;
+      color: #000;
+      padding: 1rem 1rem; }
+      #contact .contacts div:hover span {
+        color: #000; }
+      #contact .contacts div:hover a {
+        color: #000;
+        text-decoration: underline; }
+
 .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
